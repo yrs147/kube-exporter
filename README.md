@@ -4,8 +4,9 @@ This is a simple Prometheus Exporter which scrapes info from Kubernetes API and 
 
 To run the Program :- 
 
-1) Set Path to your `KUBECONFIG` in the code
-2) Run 
+1) Before Running the Exporter Make sure your cluster is up and running
+2) Set Path to your `KUBECONFIG` in the code
+3) Run 
 ```
 go run main.go
 ```
